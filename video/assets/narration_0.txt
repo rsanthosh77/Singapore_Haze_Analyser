@@ -1,0 +1,1 @@
+Welcome to the Singapore Haze Observatory. This walkthrough explores regional air quality and acute respiratory infection visits using the two supplied datasets. Use the left sidebar to select regions and dates. The three tabs cover regional haze, polyclinic associations, and the evidence behind the analysis.

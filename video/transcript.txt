@@ -1,0 +1,25 @@
+Singapore Haze Observatory — narrated walkthrough
+
+00:00:00  1 / 8   Welcome & navigation
+Welcome to the Singapore Haze Observatory. This walkthrough explores regional air quality and acute respiratory infection visits using the two supplied datasets. Use the left sidebar to select regions and dates. The three tabs cover regional haze, polyclinic associations, and the evidence behind the analysis.
+
+00:00:21  2 / 8   Read the regional PSI trend
+Start with Regional haze. The lines track PSI in North, South, East, West, and Central Singapore. The dashed line marks the unhealthy threshold, above one hundred. The highest reading is one hundred and ninety two. No region reaches the very unhealthy band in this dataset.
+
+00:00:40  3 / 8   Follow the episode over time
+Switch to Daily averages to make the broad pattern easier to see. September shows intermittent increases, followed by sustained deterioration in early October. Averages here are analytical summaries of the supplied PSI readings. Importantly, the clinic series ends on October third, before the strongest later episode.
+
+00:01:02  4 / 8   Compare Singapore’s regions
+The heatmap and exposure table compare regions. Central has the highest mean PSI, at about one hundred and one point five, followed by West and East. Similar rises across regions suggest widespread pollution. But PSI alone cannot identify a transboundary smoke source, wind direction, or responsible pollutant.
+
+00:01:25  5 / 8   Interpret the clinic association
+Open Polyclinic association. These are average daily acute respiratory infection visits, rather than all clinic attendances. Four adequately covered weeks are compared. Pearson correlation is zero point six one one, a positive association. The p value is zero point three eight nine, so the evidence remains inconclusive.
+
+00:01:48  6 / 8   Explore sensitivity without overstating it
+Each scatter point represents one clinic week. A handful of points makes the estimate sensitive to individual weeks. The timing selector lets you compare previous week PSI with current week visits. These exploratory checks cannot establish causation, and national clinic counts cannot reveal which regions' residents were affected.
+
+00:02:10  7 / 8   Check alignment & download the analysis
+The alignment audit shows which exposure weeks are eligible. One clinic week has no PSI overlap, and another has only partial date coverage. The primary analysis requires full calendar overlap and at least ninety percent hourly coverage. Use Download weekly analysis to save the aligned table as a CSV file.
+
+00:02:32  8 / 8   Take away the findings and their limits
+Finally, Data and methodology documents missing readings, assumptions, and official interpretation references. Every midnight reading is absent, with two further missing hours in September. Infection trends and care seeking can also change visits. The takeaway is worsening regional air quality, with a small, inconclusive clinic association that warrants longer, better aligned data.

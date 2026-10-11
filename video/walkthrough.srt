@@ -1,0 +1,146 @@
+1
+00:00:00,000 --> 00:00:02,675
+Welcome to the Singapore Haze Observatory.
+
+2
+00:00:02,675 --> 00:00:09,808
+This walkthrough explores regional air quality and acute respiratory infection visits
+using the two supplied datasets.
+
+3
+00:00:09,808 --> 00:00:13,820
+Use the left sidebar to select regions and dates.
+
+4
+00:00:13,820 --> 00:00:20,062
+The three tabs cover regional haze, polyclinic associations, and the evidence behind
+the analysis.
+
+5
+00:00:21,062 --> 00:00:22,726
+Start with Regional haze.
+
+6
+00:00:22,726 --> 00:00:27,716
+The lines track PSI in North, South, East, West, and Central Singapore.
+
+7
+00:00:27,716 --> 00:00:31,875
+The dashed line marks the unhealthy threshold, above one hundred.
+
+8
+00:00:31,875 --> 00:00:35,619
+The highest reading is one hundred and ninety two.
+
+9
+00:00:35,619 --> 00:00:39,778
+No region reaches the very unhealthy band in this dataset.
+
+10
+00:00:40,778 --> 00:00:46,226
+Switch to Daily averages to make the broad pattern easier to see.
+
+11
+00:00:46,226 --> 00:00:51,221
+September shows intermittent increases, followed by sustained deterioration in early
+October.
+
+12
+00:00:51,221 --> 00:00:55,762
+Averages here are analytical summaries of the supplied PSI readings.
+
+13
+00:00:55,762 --> 00:01:01,664
+Importantly, the clinic series ends on October third, before the strongest later
+episode.
+
+14
+00:01:02,664 --> 00:01:05,885
+The heatmap and exposure table compare regions.
+
+15
+00:01:05,885 --> 00:01:14,628
+Central has the highest mean PSI, at about one hundred and one point five, followed
+by West and East.
+
+16
+00:01:14,628 --> 00:01:17,849
+Similar rises across regions suggest widespread pollution.
+
+17
+00:01:17,849 --> 00:01:24,291
+But PSI alone cannot identify a transboundary smoke source, wind direction, or
+responsible pollutant.
+
+18
+00:01:25,291 --> 00:01:26,697
+Open Polyclinic association.
+
+19
+00:01:26,697 --> 00:01:32,789
+These are average daily acute respiratory infection visits, rather than all clinic
+attendances.
+
+20
+00:01:32,789 --> 00:01:35,601
+Four adequately covered weeks are compared.
+
+21
+00:01:35,601 --> 00:01:40,757
+Pearson correlation is zero point six one one, a positive association.
+
+22
+00:01:40,757 --> 00:01:47,318
+The p value is zero point three eight nine, so the evidence remains inconclusive.
+
+23
+00:01:48,318 --> 00:01:51,392
+Each scatter point represents one clinic week.
+
+24
+00:01:51,392 --> 00:01:56,223
+A handful of points makes the estimate sensitive to individual weeks.
+
+25
+00:01:56,223 --> 00:02:01,932
+The timing selector lets you compare previous week PSI with current week visits.
+
+26
+00:02:01,932 --> 00:02:09,398
+These exploratory checks cannot establish causation, and national clinic counts
+cannot reveal which regions' residents were affected.
+
+27
+00:02:10,398 --> 00:02:14,123
+The alignment audit shows which exposure weeks are eligible.
+
+28
+00:02:14,123 --> 00:02:19,918
+One clinic week has no PSI overlap, and another has only partial date coverage.
+
+29
+00:02:19,918 --> 00:02:25,713
+The primary analysis requires full calendar overlap and at least ninety percent
+hourly coverage.
+
+30
+00:02:25,713 --> 00:02:31,095
+Use Download weekly analysis to save the aligned table as a CSV file.
+
+31
+00:02:32,095 --> 00:02:37,889
+Finally, Data and methodology documents missing readings, assumptions, and official
+interpretation references.
+
+32
+00:02:37,889 --> 00:02:43,684
+Every midnight reading is absent, with two further missing hours in September.
+
+33
+00:02:43,684 --> 00:02:48,031
+Infection trends and care seeking can also change visits.
+
+34
+00:02:48,031 --> 00:02:57,206
+The takeaway is worsening regional air quality, with a small, inconclusive clinic
+association that warrants longer, better aligned data.

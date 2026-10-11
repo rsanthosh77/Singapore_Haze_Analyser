@@ -1,0 +1,1 @@
+Each scatter point represents one clinic week. A handful of points makes the estimate sensitive to individual weeks. The timing selector lets you compare previous week PSI with current week visits. These exploratory checks cannot establish causation, and national clinic counts cannot reveal which regions' residents were affected.

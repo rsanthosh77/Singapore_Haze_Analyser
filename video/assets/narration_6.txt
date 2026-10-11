@@ -1,0 +1,1 @@
+The alignment audit shows which exposure weeks are eligible. One clinic week has no PSI overlap, and another has only partial date coverage. The primary analysis requires full calendar overlap and at least ninety percent hourly coverage. Use Download weekly analysis to save the aligned table as a CSV file.

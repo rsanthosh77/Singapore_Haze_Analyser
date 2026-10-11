@@ -1,0 +1,1 @@
+The heatmap and exposure table compare regions. Central has the highest mean PSI, at about one hundred and one point five, followed by West and East. Similar rises across regions suggest widespread pollution. But PSI alone cannot identify a transboundary smoke source, wind direction, or responsible pollutant.

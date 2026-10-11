@@ -3,6 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
+from pathlib import Path
 from analysis import REGIONS, load_data, regional_summary, align_weeks, correlations
 
 st.set_page_config(page_title='Singapore Haze Observatory', page_icon='🌏', layout='wide')
@@ -18,6 +19,11 @@ except Exception as error:
     st.stop()
 
 st.sidebar.header('Explore the evidence')
+walkthrough = Path(__file__).resolve().parent / 'video/singapore_haze_walkthrough.mp4'
+if walkthrough.exists():
+    st.sidebar.download_button('Download narrated walkthrough (2:58)',
+                               data=walkthrough.read_bytes(),
+                               file_name=walkthrough.name, mime='video/mp4')
 selected = st.sidebar.multiselect('Singapore regions', REGIONS, default=REGIONS, format_func=str.title)
 dates = st.sidebar.date_input('PSI display period', value=(psi.date.min().date(), psi.date.max().date()),
                              min_value=psi.date.min().date(), max_value=psi.date.max().date())

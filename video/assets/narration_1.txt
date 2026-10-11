@@ -1,0 +1,1 @@
+Start with Regional haze. The lines track PSI in North, South, East, West, and Central Singapore. The dashed line marks the unhealthy threshold, above one hundred. The highest reading is one hundred and ninety two. No region reaches the very unhealthy band in this dataset.
